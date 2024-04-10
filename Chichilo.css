@@ -1,18 +1,18 @@
 #body {
-    margin-left: 0px;
-    margin-top:0px;
-    background-color:#ffffff;
-    margin-bottom:0px;
-    margin-right:0px;
-    color:#000000;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    background-color: #ffffff;
+    margin-bottom: 0pt;
+    margin-right: 0pt;
+    color: #000000;
 }
 #table {
-    border: 0px;
+    border: 0pt;
     width: 100%;
     border-collapse: collapse;
     border-color: #111111;
 }
-#th1 {
+#th {
     align-items: center;
     width: 100%;
     border-color: #FF0000;
@@ -24,7 +24,18 @@
     font-style: italic;
     font-weight: bold;
     font-style: verdana, arial, helvetica;
-    font-size: 30px;
+    font-size: 30pt;
+}
+#font1 {
+    color: #FF0000;
+    font-style: arial, helvetica;
+}
+#font2 {
+    font-style: arial, arial_;
+    color: #008000;
+}
+#rojo {
+    color: #FF0000;
 }
 .auto-style1 {
     font-family: "Arial Black";
@@ -86,16 +97,22 @@
     font-weight: bold;
 }
 .auto-style18 {
-    font-size: large;
-    color: gray;
+    color: red;
     font-family: "Arial Black";
-    text-align: center;
+    font-size: large;
+    text-align: left;
+}
+.auto-style19 {
+    color: black;
+    font-family: "Arial Black";
+    font-size: large;
+    text-align: left;
 }
 .auto-style20 {
     color: blue;
     font-family: "Arial Black";
     font-size: large;
-    text-align: center;
+    text-align: left;
 }
 .auto-style21 {
     font-size: 20pt;
